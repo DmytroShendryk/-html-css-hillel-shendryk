@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sample of html form</title>
+    <style>
+      form {
+      background: #fefcea; /* Для старых браузров */
+      background: linear-gradient(to top, #fefcea, #f1da36);
+      padding: 10px;
+      border: 1px solid #333;
+     }
+    </style>
+  </head>
+  <body>
+    <form name="f1" method="get" action="enter_data">
+      <input name="link" type="hidden" value="index" />
+          Логин: <br />
+      <input name="login" type="text" size="25" maxlength="30" value="" /> <br />
+      Пароль: <br />
+      <input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
+      <input name="remember" type="checkbox" value="yes" /> Запомнить <br />
+      <input type="submit" name="enter" value="Вход" />
+    </form>
+  </body>
+</html>
