@@ -1,0 +1,21 @@
+/* selector{
+    property=value
+} */
+/*element */
+h1{
+    color: purple;
+}
+p{
+    color: crimson;
+}
+/* class */
+p.paragraph1{
+    color: blue;
+}
+p.paragraph3,p.paragraph4{
+    color: forestgreen;
+}
+/* id */
+#paragraph2{
+    color: darkblue;
+}
