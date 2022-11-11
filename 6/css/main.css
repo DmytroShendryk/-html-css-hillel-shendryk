@@ -1,0 +1,201 @@
+@font-face{
+    font-family: 'Roboto - light';
+    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header,nav,ul,li{
+    margin: 0px 40px 0px 80px;
+    display: inline;
+    gap: 42px;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.2;
+}
+/* container - head */
+div.container{
+    background: #EEEFF1;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 0px; 
+}
+h1.head{
+    font-family: 'Roboto', sans-serif;
+    margin: 150px 25px 60px 160px;
+    padding: 10px 10px 10px 160px;
+}
+p.head-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 40px 60px 0px 160px;
+    padding: 40px 80px 0px 160px;
+}
+p.head-text-2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 60px 0px 160px;
+    padding: 0px 80px 0px 160px;
+}
+button.send-form{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.1em;
+    border: none;
+    background-color: #34547A;
+    margin: 60px 160px 60px 320px;
+    padding: 20px 80px 20px 80px;
+}
+button.send-form:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+/* blank container */
+div.blank{
+    width: 1920px;
+    height: 300px;
+}
+h1.blank{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 60px 0px 20px 150px;
+}
+p.blank-part-one{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 40px 60px 0px 160px;
+    padding: 40px 80px 0px 160px;
+}
+p.blank-part-two{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px 60px 60px 160px;
+    padding: 0px 80px 80px 160px;
+}
+/* container - table */
+div.container-2{
+    background: #34547A;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+}
+div.tables, ul{
+    display: inline;
+}
+img.vector{
+    margin: 80px 0px 0px 0px;
+}
+/* container */
+div.container-3{
+    background: #EEEFF1;
+    width: 1920px;
+    height: 1004px;
+    left: 0px;
+    top: 1309px;
+}
+h1.container-3{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0px 0px 20px 150px;
+    padding: 40px 0px 0px 0px;
+}
+p.container-3-part-one{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 40px 60px 0px 160px;
+    padding: 40px 80px 0px 160px; 
+}
+p.container-3-part-two{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px 60px 60px 160px;
+    padding: 0px 80px 80px 160px;
+}
+div.video{
+    margin: 20px 0px 0px 520px;
+}
+/* container */
+div.footnote{
+    background: #34547A;
+    width: 1920px;
+    height: 151px;
+    left: 0px;
+    top: 2313px;
+}
+footer{
+    padding: 60px 60px 60px 260px;
+}
+h4.footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+p.footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
